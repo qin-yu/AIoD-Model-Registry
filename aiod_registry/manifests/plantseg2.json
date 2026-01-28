@@ -8,6 +8,7 @@
     "pubs": [
       {
         "info": "PlantSeg v2",
+        "url": "https://kreshuklab.github.io/plant-seg/",
         "title": "PlantSeg 2.0: Advanced Interactive User-Friendly Tissue Segmentation",
         "authors": [
           {
@@ -226,7 +227,7 @@
       "name": "Model ID",
       "arg_name": "model_id",
       "value": null,
-      "dtype": "string",
+      "dtype": "str",
       "tooltip": "Alternative: BioImage.IO model ID (e.g., '10.5281/zenodo.7261974'). Use either model_name or model_id."
     },
     {

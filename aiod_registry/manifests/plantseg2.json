@@ -218,25 +218,6 @@
   },
   "params": [
     {
-      "name": "Model Name",
-      "arg_name": "model_name",
-      "value": "generic_confocal_3D_unet",
-      "tooltip": "Name of the model from PlantSeg zoo to use for prediction."
-    },
-    {
-      "name": "Model ID",
-      "arg_name": "model_id",
-      "value": null,
-      "dtype": "str",
-      "tooltip": "Alternative: BioImage.IO model ID (e.g., '10.5281/zenodo.7261974'). Use either model_name or model_id."
-    },
-    {
-      "name": "Device",
-      "arg_name": "device",
-      "value": "cuda",
-      "tooltip": "Device to run the model on: 'cuda' for GPU or 'cpu' for CPU."
-    },
-    {
       "name": "Patch Size",
       "arg_name": "patch",
       "value": null,
